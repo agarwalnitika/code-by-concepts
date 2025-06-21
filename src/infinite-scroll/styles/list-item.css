@@ -1,0 +1,7 @@
+.list-container {
+  overflow-y: scroll;
+}
+
+.list-item {
+  height: 80px;
+}

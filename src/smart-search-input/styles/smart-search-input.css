@@ -1,0 +1,28 @@
+.searchResultContainer {
+  height: 200px;
+  overflow-y: scroll;
+  border: 1px solid #bebebe;
+  background-color: white;
+  box-shadow: #000003;
+  transition: 150ms ease-in-out;
+}
+
+.searchResultDiv {
+  border: 1px solid black;
+  margin-bottom: 8px;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(-50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.slide-in {
+  animation: slideIn 0.5s ease forwards;
+}
